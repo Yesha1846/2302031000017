@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background: #c4b3d6;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Content Container */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    gap: 40px;
+}
+
+/* Info Boxes */
+.info-box {
+    width: 45%;
+    background: #e0d9eb;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* About Us Box (Left Side) */
+.about-box {
+    transform: translateY(-30px);
+}
+
+/* Mission Box (Right Side) */
+.mission-box {
+    transform: translateY(30px);
+}
+
+/* Text Styling */
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Images Inside Boxes */
+.info-box img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #c4b3d6;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Social Media Icons */
+.social-icons img {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
